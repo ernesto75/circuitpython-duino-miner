@@ -5,7 +5,6 @@ import adafruit_hashlib as hashlib
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 
-difficulty = 0
 #Hardcoded DUCO_ID while investigating other methods like str(machine.unique_id())
 DUCO_ID = "DUCOID6900690069006900"
 
